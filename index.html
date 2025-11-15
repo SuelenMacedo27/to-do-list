@@ -7,7 +7,7 @@
     <!-- CSS do projeto -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- JavaScript do projeto -->
     <script defer src="js/scripts.js"></script>
 </head>
@@ -21,11 +21,11 @@
             <div class="form-control">
                 <input type="text" id="todo-input" placeholder="O que você vai fazer?">
                 <button type="submit">
-                    <i class="fa-thin fa-plus"></i>
+                    <i class="fa-solid fa-plus"></i>
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="">
             <p>Edite a sua tarefa:</p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -33,6 +33,7 @@
                     <i class="fa-solid fa-check-double"></i>
                 </button>  
             </div>
+            <button id="cancel-edit-btn" type="button">Cancelar</button>
         </form>    
         <div id="toolbar">
             <div id="search">
@@ -44,7 +45,41 @@
                     </button>
                 </form>
             </div>
+            <div id="filter">
+                <h4>Filtrar tarefas:</h4>
+                <select id="filter-select">
+                    <option value="all">Todas</option>
+                    <option value="done">Feitas</option>
+                    <option value="todo">A fazer</option>
+                </select>
+            </div>
         </div>
-    </div>
+        <div id="todo-list">
+            <div class="todo">
+                <h3>Estou fazendo alguma coisa...</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="todo">
+                <h3>Estudar JavaScript</h3>
+                <button class="finish-todo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+                <button class="edit-todo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+                <button class="remove-todo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>

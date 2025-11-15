@@ -1,0 +1,126 @@
+/* Geral */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/img/papel-de-parede.jpg");
+    background-size: cover;
+}
+
+button{
+    background-color: rgb(247, 247, 247);
+    color: rgb(27, 24, 26);
+    border: 3px solid rgb(200, 200, 200);
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(45, 32, 228);
+    color: rgb(235, 24, 224);
+}
+
+button:hover > i{
+    color: rgb(235, 24, 224);
+}
+
+button i{
+    pointer-events: none;
+}
+
+input, select{
+    padding: 0.25rem 0.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+/* Todo header */
+.container{
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color: violet;
+    padding: 1.5rem;;
+    border-radius: 15px;
+}
+
+.container header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid rgb(45, 32, 228);
+}
+
+/* Todo Form */
+
+#todo-form, #edit-form{
+    padding: 1rem;
+    border-bottom: 1px solid rgb(45, 32, 228);
+}
+
+#todo-form p, #edit-form p{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control{
+    display: flex;
+}
+
+.form-control input{
+    margin-right: 0.3rem;
+}
+
+#cancel-edit-btn{
+    margin-top: 1rem;
+}
+
+/* Todo Toolbar */
+#toolbar{
+    padding: 1rem;
+    border-bottom: 1px solid rgb(45, 32, 228);
+    display: flex;
+}
+
+#toolbar h4{
+    margin-bottom: .5rem;
+}
+
+#search{
+    border-right: 1px solid rgb(45, 32, 228);
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+#search form{
+    display: flex;
+}
+
+#search input{
+    margin-right: 0.3rem;
+    width: 100%;
+}
+
+#filter{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#filter select{
+    flex: 1;
+}
+
