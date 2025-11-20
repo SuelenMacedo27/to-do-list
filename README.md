@@ -1,6 +1,6 @@
 # 📄To-Do List
 
-O projeto **To-Do List** é uma aplicação web desenvolvida para auxiliar os usuários a organizar suas tarefas diárias de forma simples e eficiente. Permite adicionar, marcar como concluídas e remover tarefas, oferecendo uma experiência prática e intuitiva para o gerenciamento de atividades.
+O projeto **To-Do List** é uma aplicação web desenvolvida para auxiliar os usuários a organizar suas tarefas diárias de forma simples e eficiente. Permite adicionar, editar, marcar como concluídas e remover tarefas, oferecendo uma experiência prática e intuitiva para o gerenciamento de atividades.
 
 ## ✨Funcionalidades
 
