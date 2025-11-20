@@ -18,7 +18,7 @@ O projeto **To-Do List** é uma aplicação web desenvolvida para auxiliar os us
 ## 📦Como Usar
 
 1. Clone o repositório:
-   ```bash git@github.com:SuelenMacedo27/to-do-list.git ```
+   ``` git@github.com:SuelenMacedo27/to-do-list.git ```
 2. Abra o arquivo index.html no navegador.
 3. Preencha os campos e teste as validações.
 
